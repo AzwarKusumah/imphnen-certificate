@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import jsPDF from 'jspdf';
 import { toPng } from 'html-to-image';
 import { useLocation, useNavigate } from 'react-router-dom';
