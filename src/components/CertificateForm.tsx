@@ -21,7 +21,7 @@ const CertificateForm: React.FC<CertificateFormProps> = ({ onSubmit }) => {
     <div className='flex justify-center items-center h-screen'>
       <Card className='w-[350px]'>
         <CardHeader>
-          <CardTitle>Sertifikat Kemalasan   </CardTitle>
+          <CardTitle>Sertifikat Kemalasan </CardTitle>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit}>

@@ -42,7 +42,7 @@ export default function CertificatePreview() {
   };
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center h-screen'>
       <div
         ref={certificateRef}
         className='relative bg-white w-full max-w-[595px] h-auto aspect-[595/421] text-center'
